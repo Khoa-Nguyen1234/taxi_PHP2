@@ -1,0 +1,28 @@
+/* Tùy chỉnh CSS cho bảng */
+table {
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+/* Tùy chỉnh CSS cho ảnh */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tùy chỉnh CSS cho nút */
+.btn {
+    margin-right: 5px;
+}
+.btn-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 5px rgba(111, 89, 171, 0.2);
+}

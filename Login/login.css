@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif; /* Specify preferred fonts */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff; /* White background for the form */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center the form content */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #3498db; /* Blue heading for emphasis */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Bold labels for better readability */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Slightly rounded input fields */
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Match the input field style */
+    margin-bottom: 15px;
+}
+
+button[type="submit"] {
+    background-color: #3498db; /* Same blue color as heading */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px; /* Match the input field style */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for hover */
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
